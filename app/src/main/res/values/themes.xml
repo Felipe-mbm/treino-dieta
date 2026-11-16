@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base para o ponto de partida da Activity; a UI real usa o tema
+         Material 3 do Compose (ui/theme/TreinoDietaTheme). -->
+    <style name="Theme.TreinoDieta" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
