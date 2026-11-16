@@ -45,6 +45,9 @@ android {
 kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_17)
+        // Comportamento futuro de Kotlin 2.3+ para anotações em propriedades
+        // de construtor (silencia o aviso de @StringRes em TreinoApp.kt)
+        freeCompilerArgs.add("-Xannotation-default-target=param-property")
     }
 }
 

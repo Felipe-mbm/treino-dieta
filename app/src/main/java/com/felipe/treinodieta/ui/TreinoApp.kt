@@ -3,6 +3,7 @@ package com.felipe.treinodieta.ui
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ShowChart
 import androidx.compose.material.icons.filled.FitnessCenter
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Restaurant
@@ -38,7 +39,7 @@ private val abas = listOf(
     Aba(rota = "hoje", rotuloRes = R.string.aba_hoje, icone = Icons.Filled.Home),
     Aba(rota = "treinos", rotuloRes = R.string.aba_treinos, icone = Icons.Filled.FitnessCenter),
     Aba(rota = "dieta", rotuloRes = R.string.aba_dieta, icone = Icons.Filled.Restaurant),
-    Aba(rota = "progresso", rotuloRes = R.string.aba_progresso, icone = Icons.Filled.ShowChart),
+    Aba(rota = "progresso", rotuloRes = R.string.aba_progresso, icone = Icons.AutoMirrored.Filled.ShowChart),
 )
 
 /**
